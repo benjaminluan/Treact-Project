@@ -86,7 +86,6 @@ nav{
 .logo{
     width: 56px;
     padding: 8px 8px;
-    margin-top: 8px;
 }
 
 .header__logo{
@@ -325,6 +324,9 @@ h4{
 
 /* value */
 
+.row__value{
+    display: flex;
+}
 .value{
     display: flex;
 }
@@ -653,4 +655,107 @@ h8{
 .copyright{
     color: #CBD5E0;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+.header__logo{
+    font-size: 20px;
+}
+.logo{
+    
+}
+.nav__link{
+    padding: 0;
+    padding-right: 8px;
+}
+
+.sign__link{
+    padding: 6px 16px;
+}
+.nav__sep{
+    margin-left: 16px;
+}
+main{
+    padding: 16px;
+}
+
+.heading,
+.feature__header--main{
+    font-size: 32px;
+}
+.start__para{
+    font-size: 16px;
+    text-align: center;
+}
+.start__info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start__page{
+    flex-direction: column;
+}
+.start__img--wrapper{
+    width: 100%;
+}
+.company{
+    padding-top: 0;
+}
+.company__para,
+.company__img,
+.feature__header--main{
+    text-align: center;
+}
+.feature__para{
+    width: 100%;
+}
+.feature__infos{
+    width: 50%;
+    margin: 0;
+}
+
+.container{
+    margin: 0;
+}
+
+.quality__header,
+.heading,
+.quality__para{
+    margin-bottom: 16px;
+    text-align: center;
+}
+.row__quality{
+    flex-direction: column;
+}
+.quality__div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.quality__img--wrapper{
+    max-width: 100%;
+    margin-top: 32px;
+}
+.value__img--wrapper{
+    margin:auto auto;
+}
+.step__heading{
+    font-size: 30px;
+}
+.value__heading{
+   font-size: 16px;
+   margin-right: 16px;
+}
+.value__para{
+    text-align: center;
+    font-size: 14px;
+}
+.value{
+    align-items: center;
+    justify-content: center;
+}
+.value--wrapper{
+    width: 50%;
+}
 }
